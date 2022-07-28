@@ -1,0 +1,393 @@
+/* 声明字体图标 这里一定要注意路径的变化 */
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?tomleg');
+    src: url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+        url('../fonts/icomoon.woff?tomleg') format('woff'),
+        url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.main {
+    /* float: left;  */
+    position: relative;
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.content-left {
+    position: absolute;
+    /* float: left;  */
+    top: 0;
+    left: 0;
+    width: 721px;
+    height: 455px;
+    background-color: purple;
+}
+
+.content-left img {
+    width: 100%;
+}
+
+.content-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 250px;
+    height: 455px;
+    margin-left: 10px;
+}
+
+.content-right .right1 {
+    height: 163px;
+    border: 1px solid #e4e4e4;
+}
+
+.content-right .right1 .right1-top {
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    border-bottom: 1px dashed #e4e4e4;
+}
+
+.content-right .right1 .right1-top h4 {
+    float: left;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.content-right .right1 .right1-top a {
+    float: right;
+    margin-right: 5px;
+}
+
+.content-right .right1 .right1-top a::after {
+    content: '\e920';
+    font-family: 'icomoon';
+    margin-top: 10px;
+    margin-right: 12px;
+}
+
+.content-right .right1 .right1-bottom {
+    height: 130px;
+    text-align: center;
+
+}
+
+.content-right .right1 .right1-bottom p {
+
+    height: 16px;
+    line-height: 16px;
+    margin: 8px 0px 8px -36px;
+}
+
+.content-right .right2 {
+    height: 210px;
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+    overflow: hidden;
+}
+
+.content-right .right2 ul {
+    float: left;
+    width: 252px;
+}
+
+.content-right .right2 ul li {
+    position: relative;
+    float: left;
+    width: 63px;
+    height: 71px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+
+}
+
+.content-right .right2 ul li a {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-right .right2 ul li:nth-child(2) h5 img {
+    position: absolute;
+    right: -1px;
+    top: 0;
+}
+
+.content-right .right2 ul li a img {
+    margin: 15px 18px 5px 18px;
+}
+
+.content-right .right2 ul li a p {
+    margin: 0px 18px 15px 18px;
+}
+
+.content-right .right3 {
+    width: 251px;
+    height: 76px;
+    margin-top: 5px;
+    background-color: brown;
+}
+
+.content-right .right3 img {
+    width: 100%;
+}
+
+.recom {
+    height: 163px;
+    margin-top: 10px;
+}
+
+.recom .recom-hd {
+    float: left;
+    height: 163px;
+    width: 206px;
+    text-align: center;
+    padding: 30px;
+    background-color: #5c5251;
+}
+
+.recom-bd {
+    float: left;
+}
+
+.recom-bd ul li {
+    float: left;
+}
+
+.recom-bd ul li a {
+    display: inline-block;
+    width: 248px;
+    height: 163px;
+
+}
+
+.recom-bd ul li img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.love {
+    height: 219px;
+    margin-top: 15px;
+}
+
+.love .love-hd {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.love .love-hd h4 {
+    float: left;
+    font-size: 18px;
+    color: #333333;
+    font-weight: normal;
+}
+
+.love .love-hd a {
+    display: block;
+    float: right;
+    margin-right: 15px;
+    font-size: 12px;
+    color: #666666;
+    font-weight: normal;
+}
+
+.love .love-hd a:hover {
+    color: #c81623;
+}
+
+.love .love-hd a::after {
+    content: '\ea2e';
+    font-family: 'icomoon';
+    margin-left: 5px;
+}
+
+.love .love-bd {
+    height: 169px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.love .love-bd ul {
+    width: 1600px;
+}
+
+.love .love-bd ul li {
+    width: 200px;
+    height: 169px;
+    float: left;
+    margin-right: 11px;
+}
+
+.love .love-bd ul li a {
+    display: inline-block;
+    height: 169px;
+}
+
+.love .love-bd ul li img {
+    height: 100%;
+}
+
+.interest-hd {
+    margin: 30px 0px 10px 0px;
+
+}
+
+.interest-hd h4 {
+    font-size: 18px;
+    color: #333333;
+    font-weight: normal;
+}
+
+.interest-bd {
+    height: 405px;
+    margin-bottom: 30px;
+}
+
+.interest-bd>div {
+    float: left;
+    height: 405px;
+}
+
+.interest-bd .bd-01 {
+    width: 403px;
+}
+
+.interest-bd .bd-02 {
+    width: 225px;
+}
+
+.interest-bd .bd-03 {
+    width: 406px;
+}
+
+.interest-bd .bd-04 {
+    width: 162px;
+}
+
+
+.hd-box1 {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+    margin-top: 15px;
+}
+
+.hd-box1 h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.table_list {
+    float: right;
+    line-height: 30px;
+}
+
+.style_red {
+    color: #c81623;
+}
+
+.table_list ul li {
+    float: left;
+}
+
+.hd-box1 ul li a {
+    margin: 0 15px;
+}
+
+.bd-box2 {
+    height: 460px;
+}
+
+.bd-box2 img:hover {
+    margin-left: 8px;
+}
+
+.bd-box2 .table_content {
+    height: 360px;
+    margin-bottom: 20px;
+}
+
+.bd-box2 .box-footer {
+    height: 65px;
+}
+
+.table_listItem>div {
+    float: left;
+    height: 360px;
+}
+
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+}
+
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    padding-left: 12px;
+    margin-right: 10px;
+}
+
+.col_210 ul li a {
+    display: inline-block;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+.col_219 {
+    width: 219px;
+}
+
+/*电梯导航*/
+
+.fixedtool {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: -676px;
+    width: 66px;
+    background-color: #fff;
+    display: none;
+}
+
+.fixedtool li {
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.fixedtool .current {
+    background-color: #c81623;
+    color: #fff;
+}
